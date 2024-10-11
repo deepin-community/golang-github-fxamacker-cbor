@@ -1,5 +1,49 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-fxamacker-cbor (2.7.0-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release
+    - Refresh patch for building on 32bit systems
+  * Update Standards-Version to 4.7.0 in d/control (no changes needed)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 28 Jun 2024 22:30:53 +0000
+
+golang-github-fxamacker-cbor (2.6.0-1) unstable; urgency=medium
+
+  * New upstream release
+    - Refresh patch for building on 32bit systems
+  * Update years in d/copyright
+
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 23 Feb 2024 00:42:48 +0000
+
+golang-github-fxamacker-cbor (2.5.0-1) unstable; urgency=medium
+
+  * New upstream release
+    - Refresh patch for building on 32bit systems
+  * d/control:
+    - Update my email address
+    - Update Standards-Version to 4.6.2 (no changes needed)
+  * Update years in d/copyright
+
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 18 Aug 2023 17:04:14 +0000
+
+golang-github-fxamacker-cbor (2.4.0-1) unstable; urgency=medium
+
+  [ Aloïs Micard ]
+  * update debian/gitlab-ci.yml (using pkg-go-tools/ci-config)
+
+  [ Mathias Gibbens ]
+  * New upstream release
+    - Add a patch to fix tests on 32bit architectures
+
+ -- Mathias Gibbens <mathias@calenhad.com>  Mon, 17 Jan 2022 18:40:58 +0100
+
+golang-github-fxamacker-cbor (2.3.0-2) unstable; urgency=medium
+
+  * Source only upload for testing migration
+
+ -- Mathias Gibbens <mathias@calenhad.com>  Sun, 28 Nov 2021 19:36:21 +0100
+
+golang-github-fxamacker-cbor (2.3.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #998760)
+
+ -- Mathias Gibbens <mathias@calenhad.com>  Fri, 19 Nov 2021 11:54:27 +0100
